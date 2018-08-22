@@ -38,6 +38,21 @@ if($message['type']=='text')
 				
 	}
 	
+	if($pesan_datang=='Test') {
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array (
+								  'type' => 'cameraRoll',
+								  'label' => 'Camera roll',
+								)
+							)
+						);
+				
+	}
+	
 	if($pesan_datang=='Caption' || $pesan_datang=='6')
 	{
 		
