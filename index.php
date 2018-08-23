@@ -45,13 +45,12 @@ if($message['type']=='text')
 		$balas = array(
 							'replyToken' => $replyToken,														
 							'messages' => array(
-								array(
-										'type' => 'text',					
-										$profile = $response->getJSONDecodedBody();
-									 	echo $profile['displayName'];
-									    	echo $profile['pictureUrl'];
-									    	echo $profile['statusMessage'];
-									)
+								array (
+								  'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
+								  'displayName' => '$userId[displayName]',
+								  'pictureUrl' => 'https://example.com/abcdefghijklmn',
+								  'statusMessage' => 'Hello, LINE!',
+								)
 							)
 						);
 				
