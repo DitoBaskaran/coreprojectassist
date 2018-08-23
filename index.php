@@ -47,8 +47,8 @@ if($message['type']=='text')
 							'messages' => array(
 								array (
 								  'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
-								  'displayName' => '$userId[displayName]',
-								  'pictureUrl' => 'https://example.com/abcdefghijklmn',
+								  'displayName' => 'COREPROJECT | ASSIST',
+								  'pictureUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
 								  'statusMessage' => 'Hello, LINE!',
 								)
 							)
