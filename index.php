@@ -38,6 +38,25 @@ if($message['type']=='text')
 				
 	}
 	
+	if($pesan_datang=='Hii')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										$profile = $response->getJSONDecodedBody();
+									 	echo $profile['displayName'];
+									    	echo $profile['pictureUrl'];
+									    	echo $profile['statusMessage'];
+									)
+							)
+						);
+				
+	}
+	
 	if($pesan_datang=='Caption' || $pesan_datang=='6') {
 		
 		
