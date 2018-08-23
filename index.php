@@ -53,6 +53,18 @@ if($message['type']=='text')
 				
 	}
 	
+	$bot = new \LINE\LINEBot(new CurlHTTPClient('1/sp2ijon3lAeLqonFh0s/XZ3xQ7B83PnFo7kcSdjK/xfD90HeLFYjiWKEeKxWDs+U0QNRFuKJLy449HaggviiHxhIDJZQvX7Czk988tj0MuIm/tGh9+5c/hNSTFq2L6QQOa7pQj+WhPtMLg4PK2zQdB04t89/1O/w1cDnyilFU='), [
+	    'channelSecret' => 'cffa8dc2d6131312fc170c281a00eca2'
+	]);
+
+	$res = $bot->getProfile('user-id');
+	if ($res->isSucceeded()) {
+	    $profile = $res->getJSONDecodedBody();
+	    $displayName = $profile['displayName'];
+	    $statusMessage = $profile['statusMessage'];
+	    $pictureUrl = $profile['pictureUrl'];
+	}
+	
 	if($pesan_datang=='Caption' || $pesan_datang=='6')
 	{
 		
