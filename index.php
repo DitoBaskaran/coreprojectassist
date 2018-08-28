@@ -38,6 +38,47 @@ if($message['type']=='text')
 				
 	}
 	
+	if($pesan_datang=='Fitur' || $pesan_datang=='fitur')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array (
+									  'type' => 'template',
+									  'altText' => 'Fitur',
+									  'template' => 
+									  array (
+									    'type' => 'buttons',
+									    'thumbnailImageUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
+									    'imageAspectRatio' => 'rectangle',
+									    'imageSize' => 'cover',
+									    'imageBackgroundColor' => '#FFFFFF',
+									    'title' => 'Fitur',
+									    'text' => 'Silahkan pilih.',
+									    'defaultAction' => 
+									    array (
+									      'type' => 'uri',
+									      'label' => 'Link',
+									      'uri' => 'http://coreproject.web-vip.com/',
+									    ),
+									    'actions' => 
+									    array (
+									      0 => 
+									      array (
+										'type' => 'message',
+										'label' => 'Spotify Premium',
+										'text' => 'Spotify Premium',
+									      ),
+									    ),
+									  ),
+									)
+							)
+						);
+				
+	}
+	
 	if($pesan_datang=='Hii')
 	{
 		
