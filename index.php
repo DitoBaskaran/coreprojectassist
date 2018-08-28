@@ -38,7 +38,7 @@ if($message['type']=='text')
 				
 	}
 	
-	if($pesan_datang=='Fitur' || $pesan_datang=='fitur')
+	if($pesan_datang=='Fitur' || $pesan_datang=='fitur' || $pesan_datang=='9')
 	{
 		
 		
