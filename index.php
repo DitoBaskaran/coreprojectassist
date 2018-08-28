@@ -71,6 +71,12 @@ if($message['type']=='text')
 										'label' => 'Spotify Premium',
 										'text' => 'Spotify Premium',
 									      ),
+									      1 => 
+									      array (
+										'type' => 'message',
+										'label' => 'CoreProject APK',
+										'text' => 'CoreProject APK',
+									      ),
 									    ),
 									  ),
 									)
