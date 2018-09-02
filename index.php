@@ -225,23 +225,23 @@ if($message['type']=='text')
       ),
       2 => 
       array (
-        'thumbnailImageUrl' => 'https://huskiest-takeoff.000webhostapp.com/CoreProject.jpg',
+        'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/5b4f869a9d5b36d80ef8de1b42585a14/5C1CC07A/t51.2885-15/sh0.08/e35/s640x640/36497750_1315379348595182_7477047924963147776_n.jpg',
         'imageBackgroundColor' => '#FFFFFF',
         'title' => 'Admin 2',
-        'text' => '-',
+        'text' => 'Sani',
         'defaultAction' => 
         array (
-          'type' => 'message',
+          'type' => 'uri',
           'label' => 'Buka',
-          'text' => 'Admin 2',
+          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
         ),
         'actions' => 
         array (
           0 => 
           array (
-            'type' => 'message',
-            'label' => 'Buka',
-            'text' => 'Admin 2',
+            'type' => 'uri',
+          'label' => 'Buka',
+          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
           ),
         ),
       ),
