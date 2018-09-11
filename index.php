@@ -338,16 +338,16 @@ if($message['type']=='text')
     'defaultAction' => 
     array (
       'type' => 'message',
-      'label' => 'Owner',
-      'text' => 'https://www.instagram.com/_ditobskrn_',
+      'label' => 'Request',
+      'text' => 'Request',
     ),
     'actions' => 
     array (
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Owner',
-        'text' => 'Owner',
+        'label' => 'Request',
+        'text' => 'Request',
       ),
       1 => 
       array (
