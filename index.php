@@ -247,23 +247,23 @@ if($message['type']=='text')
       ),
       3 => 
       array (
-        'thumbnailImageUrl' => 'https://huskiest-takeoff.000webhostapp.com/CoreProject.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
+        'thumbnailImageUrl' => 'https://2.bp.blogspot.com/-PIB5fCZ5tdo/W8tmfYkji0I/AAAAAAAABQA/DPoOYcXz5As3VHvFPUEc7G7jXOSDPqGyACK4BGAYYCw/s320/1540055941820.jpg',
+        'imageBackgroundColor' => '#000000',
         'title' => 'Admin 3',
-        'text' => '-',
+        'text' => 'M Aditya',
         'defaultAction' => 
         array (
-          'type' => 'message',
+          'type' => 'uri',
           'label' => 'Buka',
-          'text' => 'Admin 3',
+          'uri' => 'http://line.me/ti/p/~predatorshadow45',
         ),
         'actions' => 
         array (
           0 => 
           array (
-            'type' => 'message',
-            'label' => 'Buka',
-            'text' => 'Admin 3',
+            'type' => 'uri',
+          'label' => 'Buka',
+          'uri' => 'http://line.me/ti/p/~predatorshadow45',
           ),
         ),
       ),
