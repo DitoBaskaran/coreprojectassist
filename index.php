@@ -215,7 +215,7 @@ if($message['type']=='text')
         ),
         'actions' => 
         array (
-          0 => 
+          1 => 
           array (
             'type' => 'uri',
           'label' => 'Buka',
@@ -237,7 +237,7 @@ if($message['type']=='text')
         ),
         'actions' => 
         array (
-          0 => 
+          2 => 
           array (
             'type' => 'uri',
           'label' => 'Buka',
@@ -263,7 +263,7 @@ if($message['type']=='text')
         ),
         'actions' => 
         array (
-          0 => 
+          3 => 
           array (
             'type' => 'message',
 	      'label' => 'Admin 3',
