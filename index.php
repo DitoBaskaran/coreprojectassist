@@ -203,31 +203,9 @@ if($message['type']=='text')
       ),
       1 => 
       array (
-        'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/7e6de955871d7bfdd73c41d84b945495/5BFBCB68/t51.2885-15/e35/25016744_2019657204925710_834670805999681536_n.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'Admin 1',
-        'text' => 'Navyra',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~navyraflp_',
-        ),
-        'actions' => 
-        array (
-        0 => 
-          array (
-           'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~navyraflp_',
-          ),
-        ),
-      ),
-      2 => 
-      array (
         'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
         'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'Admin 2',
+        'title' => 'Admin 1',
         'text' => 'Sani',
         'defaultAction' => 
         array (
@@ -245,11 +223,11 @@ if($message['type']=='text')
           ),
         ),
       ),
-      3 => 
+      2 => 
       array (
         'thumbnailImageUrl' => 'https://2.bp.blogspot.com/-PIB5fCZ5tdo/W8tmfYkji0I/AAAAAAAABQA/DPoOYcXz5As3VHvFPUEc7G7jXOSDPqGyACK4BGAYYCw/s320/1540055941820.jpg',
         'imageBackgroundColor' => '#000000',
-        'title' => 'Admin 3',
+        'title' => 'Admin 2',
         'text' => 'M Aditya',
         'defaultAction' => 
         array (
@@ -264,6 +242,32 @@ if($message['type']=='text')
             'type' => 'uri',
           'label' => 'Buka',
           'uri' => 'http://line.me/ti/p/~predatorshadow45',
+          ),
+        ),
+      ),
+    ),
+    'imageAspectRatio' => 'rectangle',
+    'imageSize' => 'cover',
+  ),
+  3 => 
+      array (
+        'thumbnailImageUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
+        'imageBackgroundColor' => '#000000',
+        'title' => 'Admin 2',
+        'text' => 'M Aditya',
+        'defaultAction' => 
+        array (
+          'type' => 'message',
+	      'label' => 'Admin 3',
+	      'text' => 'Admin 3',
+        ),
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'message',
+	      'label' => 'Admin 3',
+	      'text' => 'Admin 3',
           ),
         ),
       ),
