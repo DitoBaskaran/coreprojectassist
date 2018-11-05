@@ -215,7 +215,7 @@ if($message['type']=='text')
         ),
         'actions' => 
         array (
-          1 => 
+          0 => 
           array (
             'type' => 'uri',
           'label' => 'Buka',
@@ -237,37 +237,11 @@ if($message['type']=='text')
         ),
         'actions' => 
         array (
-          2 => 
+          0 => 
           array (
             'type' => 'uri',
           'label' => 'Buka',
           'uri' => 'http://line.me/ti/p/~predatorshadow45',
-          ),
-        ),
-      ),
-    ),
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-  ),
-  3 => 
-      array (
-        'thumbnailImageUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
-        'imageBackgroundColor' => '#000000',
-        'title' => 'Admin 2',
-        'text' => 'M Aditya',
-        'defaultAction' => 
-        array (
-          'type' => 'message',
-	      'label' => 'Admin 3',
-	      'text' => 'Admin 3',
-        ),
-        'actions' => 
-        array (
-          3 => 
-          array (
-            'type' => 'message',
-	      'label' => 'Admin 3',
-	      'text' => 'Admin 3',
           ),
         ),
       ),
