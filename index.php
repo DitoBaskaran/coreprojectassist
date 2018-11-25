@@ -165,7 +165,7 @@ if($message['type']=='text')
 				
 	}
 	
-	if($pesan_datang=='5' || $pesan_datang=='Admin') {
+	if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
 		
 		
 		$balas = array(
@@ -223,39 +223,13 @@ if($message['type']=='text')
           ),
         ),
       ),
-      2 => 
-      array (
-        'thumbnailImageUrl' => 'https://2.bp.blogspot.com/-PIB5fCZ5tdo/W8tmfYkji0I/AAAAAAAABQA/DPoOYcXz5As3VHvFPUEc7G7jXOSDPqGyACK4BGAYYCw/s320/1540055941820.jpg',
-        'imageBackgroundColor' => '#000000',
-        'title' => 'Admin 2',
-        'text' => 'M Aditya',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~predatorshadow45',
-        ),
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~predatorshadow45',
-          ),
-        ),
-      ),
-    ),
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-  ),
 )
 							)
 						);
 				
 	}
 	
-	if($pesan_datang=='Owner' || $pesan_datang=='Own') {
+	if($pesan_datang=='Owner' || $pesan_datang=='Own' || $pesan_datang=='owner') {
 		
 		
 		$balas = array(
