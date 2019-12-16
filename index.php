@@ -61,12 +61,12 @@ if($message['type']=='text') {
 				
 	// }
 	
-	if($pesan_datang=='Hii') {
+	if($pesan_datang=='Me') {
 		$balas = array (
 			'replyToken' => $replyToken,														
 			'messages' => array(
 				array (
-				  	'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
+				  	'userId' => $userId,
 				  	'displayName' => 'COREPROJECT | ASSIST',
 				  	'pictureUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
 				  	'statusMessage' => 'Hello, LINE!',
@@ -249,7 +249,7 @@ if($message['type']=='text') {
   array (
     'type' => 'buttons',
     'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-    'imageAspectRatio' => 'rectangle',
+    'imageAspectRatio' => '1:1',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'Help',
