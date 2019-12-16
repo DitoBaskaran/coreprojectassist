@@ -66,7 +66,7 @@ if($message['type']=='text') {
 			'replyToken' => $replyToken,														
 			'messages' => array(
 				array (
-				  	'userId' => $userId,
+				  	'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
 				  	'displayName' => 'COREPROJECT | ASSIST',
 				  	'pictureUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
 				  	'statusMessage' => 'Hello, LINE!',
