@@ -51,10 +51,10 @@ if($message['type']=='text')
 									  'template' => 
 									  array (
 									    'type' => 'buttons',
-									    'thumbnailImageUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
+									    'thumbnailImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
 									    'imageAspectRatio' => 'rectangle',
 									    'imageSize' => 'cover',
-									    'imageBackgroundColor' => '#FFFFFF',
+									    'imageBackgroundColor' => '#000000',
 									    'title' => 'Fitur',
 									    'text' => 'Silahkan pilih.',
 									    'defaultAction' => 
@@ -70,12 +70,6 @@ if($message['type']=='text')
 										'type' => 'message',
 										'label' => 'Spotify Premium',
 										'text' => 'Spotify Premium',
-									      ),
-									      1 => 
-									      array (
-										'type' => 'message',
-										'label' => 'CoreProject APK',
-										'text' => 'CoreProject APK',
 									      ),
 									    ),
 									  ),
@@ -95,7 +89,7 @@ if($message['type']=='text')
 								array (
 								  'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
 								  'displayName' => 'COREPROJECT | ASSIST',
-								  'pictureUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
+								  'pictureUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
 								  'statusMessage' => 'Hello, LINE!',
 								)
 							)
@@ -115,7 +109,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://1.bp.blogspot.com/-Ac7CLfJQm-s/W3Lzo84TkhI/AAAAAAAABL4/1TB46mZ2Hqo4Fzcy6vrTlTKcuXXdBviagCLcBGAs/s320/CoreProject.jpg',
+    'thumbnailImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -157,8 +151,8 @@ if($message['type']=='text')
 							'messages' => array(
 								array (
                                       'type' => 'image',
-                                      'originalContentUrl' => 'https://huskiest-takeoff.000webhostapp.com/CoreProject.jpg',
-                                      'previewImageUrl' => 'https://huskiest-takeoff.000webhostapp.com/CoreProject.jpg',
+                                      'originalContentUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
+                                      'previewImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
                                     )
 							)
 						);
@@ -201,27 +195,6 @@ if($message['type']=='text')
           ),
         ),
       ),
-      1 => 
-      array (
-        'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'Admin 1',
-        'text' => 'Sani',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
-        ),
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
-          ),
-        ),
       ),
     ),
   )
