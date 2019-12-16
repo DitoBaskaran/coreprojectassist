@@ -61,7 +61,7 @@ if($message['type']=='text') {
 				
 	// }
 	
-	if($pesan_datang=='Me') {
+	if($pesan_datang=='Hii') {
 		$balas = array (
 			'replyToken' => $replyToken,														
 			'messages' => array(
@@ -249,7 +249,7 @@ if($message['type']=='text') {
   array (
     'type' => 'buttons',
     'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-    'imageAspectRatio' => '1:1',
+    'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
     'title' => 'Help',
