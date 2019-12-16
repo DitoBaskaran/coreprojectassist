@@ -2,14 +2,10 @@
 /*
 copyright @ medantechno.com
 2017
-
 */
-
 require_once('./line_class.php');
-
 $channelAccessToken = '1/sp2ijon3lAeLqonFh0s/XZ3xQ7B83PnFo7kcSdjK/xfD90HeLFYjiWKEeKxWDs+U0QNRFuKJLy449HaggviiHxhIDJZQvX7Czk988tj0MuIm/tGh9+5c/hNSTFq2L6QQOa7pQj+WhPtMLg4PK2zQdB04t89/1O/w1cDnyilFU='; //sesuaikan 
 $channelSecret = 'cffa8dc2d6131312fc170c281a00eca2';//sesuaikan
-
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
 $replyToken = $client->parseEvents()[0]['replyToken'];
@@ -18,129 +14,104 @@ $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $profil = $client->profil($userId);
 $pesan_datang = $message['text'];
-
 //pesan bergambar
-if($message['type']=='text')
-{
-	if($pesan_datang=='Hi')
-	{
-		
-		
+if($message['type']=='text') {
+	if($pesan_datang=='Hi') {
 		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => 'Halo'
-									)
-							)
-						);
-				
+					'replyToken' => $replyToken,														
+					'messages' => array(
+						array (
+							'type' => 'text',					
+							'text' => 'Halo'
+						)
+					)
+		);
 	}
-	
-	if($pesan_datang=='Fitur' || $pesan_datang=='fitur' || $pesan_datang=='9')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-									  'type' => 'template',
-									  'altText' => 'Fitur',
-									  'template' => 
-									  array (
-									    'type' => 'buttons',
-									    'thumbnailImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
-									    'imageAspectRatio' => 'rectangle',
-									    'imageSize' => 'cover',
-									    'imageBackgroundColor' => '#000000',
-									    'title' => 'Fitur',
-									    'text' => 'Silahkan pilih.',
-									    'defaultAction' => 
-									    array (
-									      'type' => 'uri',
-									      'label' => 'Link',
-									      'uri' => 'http://coreproject.web-vip.com/',
-									    ),
-									    'actions' => 
-									    array (
-									      0 => 
-									      array (
-										'type' => 'message',
-										'label' => 'Spotify Premium',
-										'text' => 'Spotify Premium',
-									      ),
-									    ),
-									  ),
-									)
-							)
-						);
+	// if($pesan_datang=='Fitur' || $pesan_datang=='fitur' || $pesan_datang=='9') {
+	// 	$balas = array(
+	// 		'replyToken' => $replyToken,														
+	// 		'messages' => array(
+	// 				array (
+	// 				  	'type' => 'template',
+	// 				  	'altText' => 'Fitur',
+	// 				  	'template' => array (
+	// 					    'type' => 'buttons',
+	// 					    'thumbnailImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
+	// 					    'imageAspectRatio' => 'rectangle',
+	// 					    'imageSize' => 'cover',
+	// 					    'imageBackgroundColor' => '#FFFFFF',
+	// 					    'title' => 'Fitur',
+	// 					    'text' => 'Silahkan pilih.',
+	// 					    'defaultAction' => array (
+	// 				      		'type' => 'uri',
+	// 				      		'label' => 'Link',
+	// 				      		'uri' => 'http://coreproject.web-vip.com/',
+	// 				    	),
+	// 					    'actions' => array (
+	// 				      		0 => array (
+	// 								'type' => 'message',
+	// 								'label' => 'Spotify Premium',
+	// 								'text' => 'Spotify Premium',
+	// 					      	),
+	// 					    ),
+	// 				  	),
+	// 				)
+	// 		)
+	// 	);
 				
-	}
+	// }
 	
-	if($pesan_datang=='Hii')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-								  'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
-								  'displayName' => 'COREPROJECT | ASSIST',
-								  'pictureUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
-								  'statusMessage' => 'Hello, LINE!',
-								)
-							)
-						);
-				
+	if($pesan_datang=='Hii') {
+		$balas = array (
+			'replyToken' => $replyToken,														
+			'messages' => array(
+				array (
+				  	'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
+				  	'displayName' => 'COREPROJECT | ASSIST',
+				  	'pictureUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+				  	'statusMessage' => 'Hello, LINE!',
+				)
+			)
+		);
 	}
 	
 	if($pesan_datang=='Caption' || $pesan_datang=='6') {
-		
-		
 		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-  'type' => 'template',
-  'altText' => 'Caption',
-  'template' => 
-  array (
-    'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-    'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Caption',
-    'text' => 'Silahkan pilih.',
-    'defaultAction' => 
-    array (
-      'type' => 'message',
-      'label' => 'Caption 1',
-      'text' => 'Caption 1',
-    ),
-    'actions' => 
-    array (
-      0 => 
-      array (
-        'type' => 'message',
-        'label' => 'Caption 1',
-        'text' => 'Caption 1',
-      ),
-      1 => 
-      array (
-        'type' => 'message',
-        'label' => 'Caption 2',
-        'text' => 'Caption 2',
-      ),
-    ),
-  ),
-)
-							)
-						);
-				
+			'replyToken' => $replyToken,														
+			'messages' => array(
+				array (
+  					'type' => 'template',
+					'altText' => 'Caption',
+  					'template' => array (
+						'type' => 'buttons',
+    					'thumbnailImageUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+					    'imageAspectRatio' => 'rectangle',
+					    'imageSize' => 'cover',
+					    'imageBackgroundColor' => '#FFFFFF',
+					    'title' => 'Caption',
+					    'text' => 'Silahkan pilih.',
+    						'defaultAction' => 
+    							array (
+      								'type' => 'message',
+      								'label' => 'Caption 1',
+      								'text' => 'Caption 1',
+    							),
+    							'actions' => array (
+      								0 => array (
+								        'type' => 'message',
+								        'label' => 'Caption 1',
+								        'text' => 'Caption 1',
+      								),
+      								1 => array (
+								        'type' => 'message',
+								        'label' => 'Caption 2',
+								        'text' => 'Caption 2',
+  									),
+    							),
+  					),
+				)
+			)
+		);
 	}
 	
 	if($pesan_datang=='Logo') {
@@ -151,8 +122,8 @@ if($message['type']=='text')
 							'messages' => array(
 								array (
                                       'type' => 'image',
-                                      'originalContentUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
-                                      'previewImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
+                                      'originalContentUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+                                      'previewImageUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
                                     )
 							)
 						);
@@ -195,6 +166,27 @@ if($message['type']=='text')
           ),
         ),
       ),
+      1 => 
+      array (
+        'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
+        'imageBackgroundColor' => '#FFFFFF',
+        'title' => 'Admin 1',
+        'text' => 'Sani',
+        'defaultAction' => 
+        array (
+          'type' => 'uri',
+          'label' => 'Buka',
+          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
+        ),
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+          'label' => 'Buka',
+          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
+          ),
+        ),
       ),
     ),
   )
@@ -256,7 +248,7 @@ if($message['type']=='text')
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://huskiest-takeoff.000webhostapp.com/CoreProject.jpg',
+    'thumbnailImageUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
@@ -301,15 +293,10 @@ if($message['type']=='text')
 						);
 				
 	}
-
 }
  
 $result =  json_encode($balas);
 //$result = ob_get_clean();
-
 file_put_contents('./balasan.json',$result);
-
-
 $client->replyMessage($balas);
-
 ?>
