@@ -68,7 +68,7 @@ if($message['type']=='text') {
 				array (
 				  	'userId' => 'Uc48bc2fe244c6d5fb844494e15fe8e73',
 				  	'displayName' => 'COREPROJECT | ASSIST',
-				  	'pictureUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+				  	'pictureUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
 				  	'statusMessage' => 'Hello, LINE!',
 				)
 			)
@@ -84,7 +84,7 @@ if($message['type']=='text') {
 					'altText' => 'Caption',
   					'template' => array (
 						'type' => 'buttons',
-    					'thumbnailImageUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+    					'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
 					    'imageAspectRatio' => 'rectangle',
 					    'imageSize' => 'cover',
 					    'imageBackgroundColor' => '#FFFFFF',
@@ -122,8 +122,8 @@ if($message['type']=='text') {
 							'messages' => array(
 								array (
                                       'type' => 'image',
-                                      'originalContentUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
-                                      'previewImageUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+                                      'originalContentUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+                                      'previewImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
                                     )
 							)
 						);
@@ -248,7 +248,7 @@ if($message['type']=='text') {
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://i.imgur.com/ZSfAHJI.jpg',
+    'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
