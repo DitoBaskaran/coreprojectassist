@@ -143,15 +143,15 @@ if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
                 'title' => 'Help Menu',
                 'text' => 'Klik yaa',
                 'defaultAction' => array (
-                  'type' => 'text',
-                  'label' => 'Welcome',
-                  'text' => 'Welcome',
+                  'type' => 'uri',
+                  'label' => 'Buka',
+                  'uri' => 'http://line.me/ti/p/~anonymousind',
                 ),
                 'actions' => array (
                   0 => array (
-                    'type' => 'text',
-                    'label' => 'Welcome',
-                    'text' => 'Welcome',
+                    'type' => 'uri',
+                    'label' => 'Buka',
+                    'uri' => 'http://line.me/ti/p/~anonymousind',
                   ),
                 ),
               ),
