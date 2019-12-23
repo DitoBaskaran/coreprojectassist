@@ -257,34 +257,40 @@ if($message['type']=='text') {
     'defaultAction' => 
     array (
       'type' => 'message',
-      'label' => 'Request',
-      'text' => 'Request',
+      'label' => 'Help',
+      'text' => 'Help',
     ),
     'actions' => 
     array (
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Request',
-        'text' => 'Request',
+        'label' => 'Welcome',
+        'text' => 'Welcome',
       ),
       1 => 
-      array (
-        'type' => 'message',
-        'label' => 'Official Account',
-        'text' => 'Official Account',
-      ),
-      2 => 
       array (
         'type' => 'message',
         'label' => 'Link',
         'text' => 'Link',
       ),
+      2 => 
+      array (
+        'type' => 'message',
+        'label' => 'Spam',
+        'text' => 'Spam',
+      ),
       3 => 
       array (
         'type' => 'message',
-        'label' => 'Keywords',
-        'text' => 'Key',
+        'label' => 'Peraturan',
+        'text' => 'Peraturan',
+      ),
+      4 => 
+      array (
+        'type' => 'message',
+        'label' => 'Admin',
+        'text' => 'Admin',
       ),
     ),
   ),
