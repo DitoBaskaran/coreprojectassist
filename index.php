@@ -243,30 +243,54 @@ if($message['type']=='text') {
 							'replyToken' => $replyToken,														
 							'messages' => array(
 								array (
-    'type' => 'template',
-  'altText' => 'Owner CorePoject',
+  'type' => 'template',
+  'altText' => 'Help',
   'template' => 
   array (
     'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/fb611678be9b8dd1da7e3245d05d8682/5BF44FA0/t51.2885-15/e35/s480x480/37044385_422047604981813_183265215138234368_n.jpg',
+    'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
     'imageAspectRatio' => 'rectangle',
     'imageSize' => 'cover',
     'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Owner',
-    'text' => 'Dia adalah owner CoreProject!',
+    'title' => 'Help',
+    'text' => 'Silahkan pilih.',
     'defaultAction' => 
     array (
-      'type' => 'uri',
-      'label' => 'Buka',
-      'uri' => 'https://www.instagram.com/_ditobskrn_',
+      'type' => 'message',
+      'label' => 'Help',
+      'text' => 'Help',
     ),
     'actions' => 
     array (
       0 => 
       array (
-        'type' => 'uri',
-        'label' => 'Buka',
-        'uri' => 'https://www.instagram.com/_ditobskrn_',
+        'type' => 'message',
+        'label' => 'Welcome',
+        'text' => 'Welcome',
+      ),
+      1 => 
+      array (
+        'type' => 'message',
+        'label' => 'Link',
+        'text' => 'Link',
+      ),
+      2 => 
+      array (
+        'type' => 'message',
+        'label' => 'Spam',
+        'text' => 'Spam',
+      ),
+      3 => 
+      array (
+        'type' => 'message',
+        'label' => 'Peraturan',
+        'text' => 'Peraturan',
+      ),
+      4 => 
+      array (
+        'type' => 'message',
+        'label' => 'Admin',
+        'text' => 'Admin',
       ),
     ),
   ),
@@ -275,6 +299,7 @@ if($message['type']=='text') {
 						);
 				
 	}
+}
  
 $result =  json_encode($balas);
 //$result = ob_get_clean();
