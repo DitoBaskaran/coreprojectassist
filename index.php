@@ -213,6 +213,10 @@ if($message['type']=='text') {
               ),
             ),
           ),
+        )
+			)  
+      'messages' => array(
+        array (
           'type' => 'template',
           'altText' => 'Help',
           'template' => array (
@@ -242,7 +246,7 @@ if($message['type']=='text') {
             ),
           ),
         )
-			)      
+      )      
 		);
 	}
 }
