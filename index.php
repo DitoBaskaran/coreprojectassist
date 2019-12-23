@@ -135,7 +135,7 @@ if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
           'type' => 'template',
           'altText' => 'Help Menu',
           'template' => array (
-            'type' => 'carousel',
+            'type' => 'button',
             'columns' => array (
               0 => array (
                 'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
@@ -143,15 +143,15 @@ if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
                 'title' => 'Help Menu',
                 'text' => 'Klik yaa',
                 'defaultAction' => array (
-                  'type' => 'uri',
+                  'type' => 'text',
                   'label' => 'Buka',
-                  'uri' => 'http://line.me/ti/p/~anonymousind',
+                  'text' => 'http://line.me/ti/p/~anonymousind',
                 ),
                 'actions' => array (
                   0 => array (
-                    'type' => 'uri',
+                    'type' => 'text',
                     'label' => 'Buka',
-                    'uri' => 'http://line.me/ti/p/~anonymousind',
+                    'text' => 'http://line.me/ti/p/~anonymousind',
                   ),
                 ),
               ),
