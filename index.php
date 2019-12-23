@@ -133,25 +133,25 @@ if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
    'messages' => array(
      array (
           'type' => 'template',
-          'altText' => 'Admin CoreProject',
+          'altText' => 'Help Menu',
           'template' => array (
             'type' => 'carousel',
             'columns' => array (
               0 => array (
                 'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
                 'imageBackgroundColor' => '#FFFFFF',
-                'title' => 'Owner',
-                'text' => 'DitoBaskaran',
+                'title' => 'Help Menu',
+                'text' => 'Klik yaa',
                 'defaultAction' => array (
-                  'type' => 'uri',
-                  'label' => 'Buka',
-                  'uri' => 'http://line.me/ti/p/~anonymousind',
+                  'type' => 'text',
+                  'label' => 'Welcome',
+                  'text' => 'Welcome',
                 ),
                 'actions' => array (
                   0 => array (
-                    'type' => 'uri',
-                    'label' => 'Buka',
-                    'uri' => 'http://line.me/ti/p/~anonymousind',
+                    'type' => 'text',
+                    'label' => 'Welcome',
+                    'text' => 'Welcome',
                   ),
                 ),
               ),
