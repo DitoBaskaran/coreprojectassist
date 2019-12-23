@@ -184,38 +184,64 @@ if($message['type']=='text') {
 		$balas = array(
 			'replyToken' => $replyToken,														
 			'messages' => array(
-        0 => array (
-  				array (
-            'type' => 'template',
-            'altText' => 'Help',
-            'template' => array (
-              'type' => 'buttons',
-              'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-              'imageAspectRatio' => 'rectangle',
-              'imageSize' => 'cover',
-              'imageBackgroundColor' => '#FFFFFF',
-              'title' => 'Help',
-              'text' => 'Silahkan pilih.',
-              'defaultAction' => array (
+				array (
+          'type' => 'template',
+          'altText' => 'Help',
+          'template' => array (
+            'type' => 'buttons',
+            'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+            'imageAspectRatio' => 'rectangle',
+            'imageSize' => 'cover',
+            'imageBackgroundColor' => '#FFFFFF',
+            'title' => 'Help',
+            'text' => 'Silahkan pilih.',
+            'defaultAction' => array (
+              'type' => 'message',
+              'label' => 'Help',
+              'text' => 'Help',
+            ),
+            'actions' => array (
+              0 => array (
                 'type' => 'message',
-                'label' => 'Help',
-                'text' => 'Help',
+                'label' => 'Welcome',
+                'text' => 'Welcome',
               ),
-              'actions' => array (
-                0 => array (
-                  'type' => 'message',
-                  'label' => 'Welcome',
-                  'text' => 'Welcome',
-                ),
-                1 => array (
-                  'type' => 'message',
-                  'label' => 'Link',
-                  'text' => 'Link',
-                ),
+              1 => array (
+                'type' => 'message',
+                'label' => 'Link',
+                'text' => 'Link',
               ),
             ),
           ),
-        ),
+          'type' => 'template',
+          'altText' => 'Help',
+          'template' => array (
+            'type' => 'buttons',
+            'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+            'imageAspectRatio' => 'rectangle',
+            'imageSize' => 'cover',
+            'imageBackgroundColor' => '#FFFFFF',
+            'title' => 'Help',
+            'text' => 'Silahkan pilih.',
+            'defaultAction' => array (
+              'type' => 'message',
+              'label' => 'Help',
+              'text' => 'Help',
+            ),
+            'actions' => array (
+              0 => array (
+                'type' => 'message',
+                'label' => 'Welcome',
+                'text' => 'Welcome',
+              ),
+              1 => array (
+                'type' => 'message',
+                'label' => 'Link',
+                'text' => 'Link',
+              ),
+            ),
+          ),
+        )
 			)      
 		);
 	}
