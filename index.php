@@ -27,39 +27,6 @@ if($message['type']=='text') {
 					)
 		);
 	}
-	// if($pesan_datang=='Fitur' || $pesan_datang=='fitur' || $pesan_datang=='9') {
-	// 	$balas = array(
-	// 		'replyToken' => $replyToken,														
-	// 		'messages' => array(
-	// 				array (
-	// 				  	'type' => 'template',
-	// 				  	'altText' => 'Fitur',
-	// 				  	'template' => array (
-	// 					    'type' => 'buttons',
-	// 					    'thumbnailImageUrl' => 'https://i.ibb.co/wz4Wrx3/Logo-2.jpg',
-	// 					    'imageAspectRatio' => 'rectangle',
-	// 					    'imageSize' => 'cover',
-	// 					    'imageBackgroundColor' => '#FFFFFF',
-	// 					    'title' => 'Fitur',
-	// 					    'text' => 'Silahkan pilih.',
-	// 					    'defaultAction' => array (
-	// 				      		'type' => 'uri',
-	// 				      		'label' => 'Link',
-	// 				      		'uri' => 'http://coreproject.web-vip.com/',
-	// 				    	),
-	// 					    'actions' => array (
-	// 				      		0 => array (
-	// 								'type' => 'message',
-	// 								'label' => 'Spotify Premium',
-	// 								'text' => 'Spotify Premium',
-	// 					      	),
-	// 					    ),
-	// 				  	),
-	// 				)
-	// 		)
-	// 	);
-				
-	// }
 	
 	if($pesan_datang=='Hii') {
 		$balas = array (
@@ -115,189 +82,155 @@ if($message['type']=='text') {
 	}
 	
 	if($pesan_datang=='Logo') {
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-                                      'type' => 'image',
-                                      'originalContentUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-                                      'previewImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-                                    )
-							)
-						);
-				
+	  $balas = array(
+			'replyToken' => $replyToken,														
+			'messages' => array(
+					array (
+            'type' => 'image',
+            'originalContentUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+            'previewImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+          )
+			)
+		);
 	}
 	
-	if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-  'type' => 'template',
-  'altText' => 'Admin CoreProject',
-  'template' => 
-  array (
-    'type' => 'carousel',
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'Owner',
-        'text' => 'DitoBaskaran',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~anonymousind',
-        ),
-        'actions' => 
-        array (
-        0 => 
-          array (
-           'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~anonymousind',
-          ),
-        ),
-      ),
-      1 => 
-      array (
-        'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
-        'imageBackgroundColor' => '#FFFFFF',
-        'title' => 'Admin 1',
-        'text' => 'Sani',
-        'defaultAction' => 
-        array (
-          'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
-        ),
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'uri',
-          'label' => 'Buka',
-          'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
-          ),
-        ),
-      ),
-    ),
-  )
-)
-							)
-						);
-				
-	}
+	// if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
+	// 	$balas = array(
+	// 		'replyToken' => $replyToken,														
+	// 		'messages' => array(
+	// 			array (
+ //          'type' => 'template',
+ //          'altText' => 'Admin CoreProject',
+ //          'template' => array (
+ //            'type' => 'carousel',
+ //            'columns' => array (
+ //              0 => array (
+ //                'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
+ //                'imageBackgroundColor' => '#FFFFFF',
+ //                'title' => 'Owner',
+ //                'text' => 'DitoBaskaran',
+ //                'defaultAction' => array (
+ //                  'type' => 'uri',
+ //                  'label' => 'Buka',
+ //                  'uri' => 'http://line.me/ti/p/~anonymousind',
+ //                ),
+ //                'actions' => array (
+ //                  0 => array (
+ //                    'type' => 'uri',
+ //                    'label' => 'Buka',
+ //                    'uri' => 'http://line.me/ti/p/~anonymousind',
+ //                  ),
+ //                ),
+ //              ),
+ //              1 => array (
+ //                'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
+ //                'imageBackgroundColor' => '#FFFFFF',
+ //                'title' => 'Admin 1',
+ //                'text' => 'Sani',
+ //                'defaultAction' => array (
+ //                  'type' => 'uri',
+ //                  'label' => 'Buka',
+ //                  'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
+ //                ),
+ //                'actions' => array (
+ //                  0 => array (
+ //                    'type' => 'uri',
+ //                    'label' => 'Buka',
+ //                    'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
+ //                  ),
+ //                ),
+ //              ),
+ //            ),
+ //          )
+ //        )
+	// 		)
+	// 	);
+	// }
 	
 	if($pesan_datang=='Owner' || $pesan_datang=='Own' || $pesan_datang=='owner') {
-		
-		
 		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-  'type' => 'template',
-  'altText' => 'Owner CorePoject',
-  'template' => 
-  array (
-    'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/fb611678be9b8dd1da7e3245d05d8682/5BF44FA0/t51.2885-15/e35/s480x480/37044385_422047604981813_183265215138234368_n.jpg',
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-    'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Owner',
-    'text' => 'Dia adalah owner CoreProject!',
-    'defaultAction' => 
-    array (
-      'type' => 'uri',
-      'label' => 'Buka',
-      'uri' => 'https://www.instagram.com/_ditobskrn_',
-    ),
-    'actions' => 
-    array (
-      0 => 
-      array (
-        'type' => 'uri',
-        'label' => 'Buka',
-        'uri' => 'https://www.instagram.com/_ditobskrn_',
-      ),
-    ),
-  ),
-)
-							)
-						);
-				
+			'replyToken' => $replyToken,														
+			'messages' => array(
+				array (
+          'type' => 'template',
+          'altText' => 'Owner CorePoject',
+          'template' => array (
+            'type' => 'buttons',
+            'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/fb611678be9b8dd1da7e3245d05d8682/5BF44FA0/t51.2885-15/e35/s480x480/37044385_422047604981813_183265215138234368_n.jpg',
+            'imageAspectRatio' => 'rectangle',
+            'imageSize' => 'cover',
+            'imageBackgroundColor' => '#FFFFFF',
+            'title' => 'Owner',
+            'text' => 'Dia adalah owner CoreProject!',
+            'defaultAction' => array (
+              'type' => 'uri',
+              'label' => 'Buka',
+              'uri' => 'https://www.instagram.com/_ditobskrn_',
+            ),
+            'actions' => array (
+              0 => array (
+                'type' => 'uri',
+                'label' => 'Buka',
+                'uri' => 'https://www.instagram.com/_ditobskrn_',
+              ),
+            ),
+          ),
+        )
+			)
+		);
 	}
 	
 	if($pesan_datang=='Help') {
-		
-		
 		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array (
-  'type' => 'template',
-  'altText' => 'Help',
-  'template' => 
-  array (
-    'type' => 'buttons',
-    'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-    'imageAspectRatio' => 'rectangle',
-    'imageSize' => 'cover',
-    'imageBackgroundColor' => '#FFFFFF',
-    'title' => 'Help',
-    'text' => 'Silahkan pilih.',
-    'defaultAction' => 
-    array (
-      'type' => 'message',
-      'label' => 'Help',
-      'text' => 'Help',
-    ),
-    'actions' => 
-    array (
-      0 => 
-      array (
-        'type' => 'message',
-        'label' => 'Welcome',
-        'text' => 'Welcome',
-      ),
-      1 => 
-      array (
-        'type' => 'message',
-        'label' => 'Link',
-        'text' => 'Link',
-      ),
-      2 => 
-      array (
-        'type' => 'message',
-        'label' => 'Spam',
-        'text' => 'Spam',
-      ),
-      3 => 
-      array (
-        'type' => 'message',
-        'label' => 'Peraturan',
-        'text' => 'Peraturan',
-      ),
-      4 => 
-      array (
-        'type' => 'message',
-        'label' => 'Admin',
-        'text' => 'Admin',
-      ),
-    ),
-  ),
-)
-							)
-						);
-				
+			'replyToken' => $replyToken,														
+			'messages' => array(
+				array (
+          'type' => 'template',
+          'altText' => 'Help',
+          'template' => array (
+            'type' => 'buttons',
+            'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+            'imageAspectRatio' => 'rectangle',
+            'imageSize' => 'cover',
+            'imageBackgroundColor' => '#FFFFFF',
+            'title' => 'Help',
+            'text' => 'Silahkan pilih.',
+            'defaultAction' => array (
+              'type' => 'message',
+              'label' => 'Help',
+              'text' => 'Help',
+            ),
+            'actions' => array (
+              0 => array (
+                'type' => 'message',
+                'label' => 'Welcome',
+                'text' => 'Welcome',
+              ),
+              1 => array (
+                'type' => 'message',
+                'label' => 'Link',
+                'text' => 'Link',
+              ),
+              2 => array (
+                'type' => 'message',
+                'label' => 'Spam',
+                'text' => 'Spam',
+              ),
+              3 => array (
+                'type' => 'message',
+                'label' => 'Peraturan',
+                'text' => 'Peraturan',
+              ),
+              4 => array (
+                'type' => 'message',
+                'label' => 'Admin',
+                'text' => 'Admin',
+              ),
+            ),
+          ),
+        )
+			)      
+		);
 	}
 }
  
