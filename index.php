@@ -127,93 +127,96 @@ if($message['type']=='text') {
 	// 	);
 	// }
 
-if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
- $balas = array(
-   'replyToken' => $replyToken,                            
-   'messages' => array(
-     array (
-          'type' => 'template',
-          'altText' => 'Help Menu',
-          'template' => array (
-            'type' => 'button',
-            'columns' => array (
-              0 => array (
-                'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
-                'imageBackgroundColor' => '#FFFFFF',
-                'title' => 'Help Menu',
-                'text' => 'Klik yaa',
-                'defaultAction' => array (
-                  'type' => 'text',
-                  'label' => 'Buka',
-                  'text' => 'http://line.me/ti/p/~anonymousind',
-                ),
-                'actions' => array (
-                  0 => array (
-                    'type' => 'text',
-                    'label' => 'Buka',
-                    'text' => 'http://line.me/ti/p/~anonymousind',
-                  ),
-                ),
-              ),
-              1 => array (
-                'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
-                'imageBackgroundColor' => '#FFFFFF',
-                'title' => 'Admin 1',
-                'text' => 'Sani',
-                'defaultAction' => array (
-                  'type' => 'uri',
-                  'label' => 'Buka',
-                  'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
-                ),
-                'actions' => array (
-                  0 => array (
-                    'type' => 'uri',
-                    'label' => 'Buka',
-                    'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
-                  ),
-                ),
-              ),
-            ),
-          )
-        )
-     )
-   );
-  }
-	
-	// if($pesan_datang=='Help') {
-	// 	$balas = array(
-	// 		'replyToken' => $replyToken,														
-	// 		'messages' => array(
-	// 			array (
+// if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
+//  $balas = array(
+//    'replyToken' => $replyToken,                            
+//    'messages' => array(
+//      array (
  //          'type' => 'template',
- //          'altText' => 'Help',
+ //          'altText' => 'Admin CoreProject',
  //          'template' => array (
  //            'type' => 'carousel',
  //            'columns' => array (
  //              0 => array (
  //                'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
  //                'imageBackgroundColor' => '#FFFFFF',
- //                'title' => 'Help Menu',
- //                'text' => 'Klik salah satu',
+ //                'title' => 'Owner',
+ //                'text' => 'DitoBaskaran',
  //                'defaultAction' => array (
- //                  'type' => 'text',
- //                  'label' => 'Welcome',
- //                  'text' => 'Welcome',
+ //                  'type' => 'uri',
+ //                  'label' => 'Buka',
+ //                  'uri' => 'http://line.me/ti/p/~anonymousind',
  //                ),
  //                'actions' => array (
  //                  0 => array (
- //                    'type' => 'text',
- //                    'label' => 'Welcome',
- //                    'text' => 'Welcome',
+ //                    'type' => 'uri',
+ //                    'label' => 'Buka',
+ //                    'uri' => 'http://line.me/ti/p/~anonymousind',
+ //                  ),
+ //                ),
+ //              ),
+ //              1 => array (
+ //                'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-hfr5XhKT8X0/W8H1bRaLGPI/AAAAAAAABPc/BM8E6nU-qpkAmGVaChCgxwF2MiHNG_EuwCLcBGAs/s1600/1539437817702.jpg',
+ //                'imageBackgroundColor' => '#FFFFFF',
+ //                'title' => 'Admin 1',
+ //                'text' => 'Sani',
+ //                'defaultAction' => array (
+ //                  'type' => 'uri',
+ //                  'label' => 'Buka',
+ //                  'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
+ //                ),
+ //                'actions' => array (
+ //                  0 => array (
+ //                    'type' => 'uri',
+ //                    'label' => 'Buka',
+ //                    'uri' => 'http://line.me/ti/p/~tengkurifaldosani',
  //                  ),
  //                ),
  //              ),
  //            ),
-	// 	      )
+ //          )
  //        )
- //      )      
-	// 	);
- //  } 
+  //    )
+  //  );
+  // }
+	
+	if($pesan_datang=='Help') {
+		$balas = array(
+			'replyToken' => $replyToken,														
+			'messages' => array(
+				array (
+          'type' => 'template',
+          'altText' => 'Help',
+          'template' => array (
+            'type' => 'buttons',
+            'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
+            'imageAspectRatio' => 'rectangle',
+            'imageSize' => 'cover',
+            'imageBackgroundColor' => '#FFFFFF',
+            'title' => 'Help',
+            'text' => 'Silahkan pilih.',
+            'defaultAction' => array (
+              'type' => 'message',
+              'label' => 'Help',
+              'text' => 'Help',
+            ),
+            'actions' => array (
+              0 => array (
+                'type' => 'message',
+                'label' => 'Welcome',
+                'text' => 'Welcome',
+              ),
+              1 => array (
+                'type' => 'message',
+                'label' => 'Link',
+                'text' => 'Link',
+              ),
+            ),
+          ),
+        )
+			)      
+		);
+	}
 }
  
 $result =  json_encode($balas);
