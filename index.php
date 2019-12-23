@@ -198,14 +198,14 @@ if($message['type']=='text') {
                 'defaultAction' => array (
                   'type' => 'uri',
                   'label' => 'Help',
-                  'uri' => '#',
+                  'uri' => 'https://google.com/',
                 ),
-              ),
-              'actions' => array (
-                0 => array (
-                  'type' => 'text',
-                  'label' => 'Welcome',
-                  'text' => 'Welcome',
+                'actions' => array (
+                  0 => array (
+                    'type' => 'text',
+                    'label' => 'Welcome',
+                    'text' => 'Welcome',
+                  ),
                 ),
               ),
             ),
