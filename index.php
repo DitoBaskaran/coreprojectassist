@@ -196,9 +196,9 @@ if($message['type']=='text') {
                 'title' => 'Help Menu',
                 'text' => 'Klik salah satu',
                 'defaultAction' => array (
-                  'type' => 'uri',
-                  'label' => 'Help',
-                  'uri' => 'https://google.com/',
+                  'type' => 'text',
+                  'label' => 'Welcome',
+                  'text' => 'Welcome',
                 ),
                 'actions' => array (
                   0 => array (
