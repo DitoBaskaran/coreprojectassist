@@ -211,21 +211,6 @@ if($message['type']=='text') {
                 'label' => 'Link',
                 'text' => 'Link',
               ),
-              2 => array (
-                'type' => 'message',
-                'label' => 'Spam',
-                'text' => 'Spam',
-              ),
-              3 => array (
-                'type' => 'message',
-                'label' => 'Peraturan',
-                'text' => 'Peraturan',
-              ),
-              4 => array (
-                'type' => 'message',
-                'label' => 'Admin',
-                'text' => 'Admin',
-              ),
             ),
           ),
         )
