@@ -94,11 +94,44 @@ if($message['type']=='text') {
 		);
 	}
 	
-	// if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
+	// if($pesan_datang=='Owner' || $pesan_datang=='Own' || $pesan_datang=='owner') {
 	// 	$balas = array(
 	// 		'replyToken' => $replyToken,														
 	// 		'messages' => array(
 	// 			array (
+ //          'type' => 'template',
+ //          'altText' => 'Owner CorePoject',
+ //          'template' => array (
+ //            'type' => 'buttons',
+ //            'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/fb611678be9b8dd1da7e3245d05d8682/5BF44FA0/t51.2885-15/e35/s480x480/37044385_422047604981813_183265215138234368_n.jpg',
+ //            'imageAspectRatio' => 'rectangle',
+ //            'imageSize' => 'cover',
+ //            'imageBackgroundColor' => '#FFFFFF',
+ //            'title' => 'Owner',
+ //            'text' => 'Dia adalah owner CoreProject!',
+ //            'defaultAction' => array (
+ //              'type' => 'uri',
+ //              'label' => 'Buka',
+ //              'uri' => 'https://www.instagram.com/_ditobskrn_',
+ //            ),
+ //            'actions' => array (
+ //              0 => array (
+ //                'type' => 'uri',
+ //                'label' => 'Buka',
+ //                'uri' => 'https://www.instagram.com/_ditobskrn_',
+ //              ),
+ //            ),
+ //          ),
+ //        )
+	// 		)
+	// 	);
+	// }
+
+// if($pesan_datang=='5' || $pesan_datang=='Admin' || $pesan_datang=='admin') {
+//  $balas = array(
+//    'replyToken' => $replyToken,                            
+//    'messages' => array(
+//      array (
  //          'type' => 'template',
  //          'altText' => 'Admin CoreProject',
  //          'template' => array (
@@ -109,11 +142,11 @@ if($message['type']=='text') {
  //                'imageBackgroundColor' => '#FFFFFF',
  //                'title' => 'Owner',
  //                'text' => 'DitoBaskaran',
- //                'defaultAction' => array (
- //                  'type' => 'uri',
- //                  'label' => 'Buka',
- //                  'uri' => 'http://line.me/ti/p/~anonymousind',
- //                ),
+                // 'defaultAction' => array (
+                //   'type' => 'uri',
+                //   'label' => 'Buka',
+                //   'uri' => 'http://line.me/ti/p/~anonymousind',
+                // ),
  //                'actions' => array (
  //                  0 => array (
  //                    'type' => 'uri',
@@ -143,42 +176,9 @@ if($message['type']=='text') {
  //            ),
  //          )
  //        )
-	// 		)
-	// 	);
-	// }
-	
-	if($pesan_datang=='Owner' || $pesan_datang=='Own' || $pesan_datang=='owner') {
-		$balas = array(
-			'replyToken' => $replyToken,														
-			'messages' => array(
-				array (
-          'type' => 'template',
-          'altText' => 'Owner CorePoject',
-          'template' => array (
-            'type' => 'buttons',
-            'thumbnailImageUrl' => 'https://instagram.fcgk1-1.fna.fbcdn.net/vp/fb611678be9b8dd1da7e3245d05d8682/5BF44FA0/t51.2885-15/e35/s480x480/37044385_422047604981813_183265215138234368_n.jpg',
-            'imageAspectRatio' => 'rectangle',
-            'imageSize' => 'cover',
-            'imageBackgroundColor' => '#FFFFFF',
-            'title' => 'Owner',
-            'text' => 'Dia adalah owner CoreProject!',
-            'defaultAction' => array (
-              'type' => 'uri',
-              'label' => 'Buka',
-              'uri' => 'https://www.instagram.com/_ditobskrn_',
-            ),
-            'actions' => array (
-              0 => array (
-                'type' => 'uri',
-                'label' => 'Buka',
-                'uri' => 'https://www.instagram.com/_ditobskrn_',
-              ),
-            ),
-          ),
-        )
-			)
-		);
-	}
+  //    )
+  //  );
+  // }
 	
 	if($pesan_datang=='Help') {
 		$balas = array(
@@ -188,35 +188,32 @@ if($message['type']=='text') {
           'type' => 'template',
           'altText' => 'Help',
           'template' => array (
-            'type' => 'buttons',
-            'thumbnailImageUrl' => 'https://4.bp.blogspot.com/-Gru9DlhU1BE/XfesZXV9R1I/AAAAAAAAE-c/rz-Tg9xTZjwSdVX4tstoboMJwnSAOWAcQCK4BGAYYCw/s320/Logo%25232.jpg',
-            'imageAspectRatio' => 'rectangle',
-            'imageSize' => 'cover',
-            'imageBackgroundColor' => '#FFFFFF',
-            'title' => 'Help',
-            'text' => 'Silahkan pilih.',
-            'defaultAction' => array (
-              'type' => 'message',
-              'label' => 'Help',
-              'text' => 'Help',
-            ),
-            'actions' => array (
+            'type' => 'carousel',
+            'columns' => array (
               0 => array (
-                'type' => 'message',
-                'label' => 'Welcome',
-                'text' => 'Welcome',
+                'thumbnailImageUrl' => 'https://3.bp.blogspot.com/-Ik5kF4Wg-S8/W3L9AyroiqI/AAAAAAAABMc/XtVi56F5O4kX4XOVRLDdb5omP6KgsQClwCLcBGAs/s1600/37044385_422047604981813_183265215138234368_n.jpg',
+                'imageBackgroundColor' => '#FFFFFF',
+                'title' => 'Help Menu',
+                'text' => 'Klik salah satu',
+                'defaultAction' => array (
+                  'type' => 'uri',
+                  'label' => 'Help',
+                  'uri' => '#',
+                ),
               ),
-              1 => array (
-                'type' => 'message',
-                'label' => 'Link',
-                'text' => 'Link',
+              'actions' => array (
+                0 => array (
+                  'type' => 'text',
+                  'label' => 'Welcome',
+                  'text' => 'Welcome',
+                ),
               ),
             ),
-          ),
+		      ),
         )
-			)      
+      )      
 		);
-	}
+  } 
 }
  
 $result =  json_encode($balas);
